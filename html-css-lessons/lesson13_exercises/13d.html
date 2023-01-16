@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13d</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            box-shadow: 0px 0px 8px lightgrey;
+            border-color: lightgrey;
+            border-style: solid;
+            border-radius: 7px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 15px;
+            padding-right: 15px;
+        } 
+        
+        .all-inboxes {
+            color: grey;
+            margin-bottom: 12px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        img {
+            height: 56px;
+            width: 56px;
+            object-fit: cover;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+        
+        .info {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            margin-bottom: 12px;
+        }
+        
+        .ttt {
+            flex: 1;
+        }
+        
+        .title-time {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .title {
+            font-weight: bold;
+            font-size: 17px;
+        }
+        
+        .time {
+            font-size: 14px;
+            color: grey;
+        }
+        
+        .headline {
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .email {
+            color: grey;
+            font-size: 14px;
+        }
+        
+        .title-time,
+        .headline,
+        .email {
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="all-inboxes" style="color: grey;">ALL INBOXES</p>
+        <div class="info">
+            <img src="cat.jpeg" alt="">
+            <div class="ttt">
+                <div class="title-time">
+                    <p class="title">Chewy Promotions</p>
+                    <p class="time">4:58PM</p>
+                </div>
+                <p class="headline">Biggest sales of the year!</p>
+                <p class="email">Hey there! We're writing to tell you about our...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

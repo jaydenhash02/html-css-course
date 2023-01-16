@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+.currency {
+    color: grey;
+    font-size: 25;
+}
+
+.cost {
+    font-size: 40;
+}
+
+.curr-change {
+    color: green;
+    font-size: 20;
+}
+
+.after-hours-change {
+    color: grey;
+    font-size: 20;
+}
+
+.real-change {
+    color: rgb(207, 75, 75);
+}

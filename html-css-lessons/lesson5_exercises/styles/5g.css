@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 20;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.header-2nd {
+    font-weight: normal;
+    color: grey;
+}
+
+.text-part {
+    width: 500;
+}
+
+.at {
+    color: rgb(104, 210, 246);
+}
+

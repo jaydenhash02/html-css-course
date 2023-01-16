@@ -1,0 +1,18 @@
+* {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* use px for dimensions (no wonder it wasn't rendering!) */

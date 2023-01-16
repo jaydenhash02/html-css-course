@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15e</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        
+        
+        .discount {
+            position: absolute;
+            top: 18px;
+            right: 0px;
+            background-color: black;
+            color: white;
+            height: 35px;
+            width: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 300px;
+        }
+        
+        
+        .overlay {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color: rgba(243, 243, 243, 0.4);
+            height: 90px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        button {
+            border-color: black;
+            background-color: white;
+            border-width: 1px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="photo.webp" alt="">
+        <div class="discount">20% OFF</div>
+        <div class="overlay">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
